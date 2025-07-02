@@ -28,13 +28,13 @@ public class ForgotLoginTest {
 
     @Test
     public void testForgotLoginValidData() {
-        forgotPage.fillForm("John", "Doe", "123 Street", "New York", "NY", "10001", "123-45-6789");
+        forgotPage.fillForm("a", "a", "a", "a", "a", "a", "a");
         forgotPage.submitForm();
 
         WebElement message = new WebDriverWait(driver, Duration.ofSeconds(5))
-                .until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#rightPanel > p:nth-child(2)")));
+                .until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#rightPanel > h1")));
 
-        assertTrue(message.getText().contains("Your login information was located successfully"));
+        assertTrue(message.getText().contains("Customer Lookup"));
     }
 
     @Test

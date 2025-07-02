@@ -36,9 +36,9 @@ public class LoginTest {
 
     @Test
     public void testInvalidPassword() {
-        performLogin("john", "sadasdasda");
+        performLogin("a", "aa");
         waitForErrorMessage();
-        WebElement errorElement = driver.findElement(By.cssSelector("#repeatedPassword\\.errors"));
+        WebElement errorElement = driver.findElement(By.cssSelector("#rightPanel > p"));
         String errorText = errorElement.getText();
 
         System.out.println("Error Message: " + errorText);
