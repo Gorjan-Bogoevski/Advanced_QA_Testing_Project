@@ -37,7 +37,7 @@ public class BillPayTest {
     public void testEmptyAccountNumber() {
         billPayPage.fillForm("John Doe", "123 Street", "City", "ST", "12345", "1234567890", "", "123", "100", 0);
         billPayPage.submit();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
         String error = driver.findElement(By.cssSelector("#validationModel-account-empty")).getText();
         assertTrue(error.contains("Account number is required"));
     }

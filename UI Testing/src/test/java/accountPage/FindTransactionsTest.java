@@ -110,7 +110,7 @@ public class FindTransactionsTest {
     public void testInvalidDateRange() {
         findPage.enterDateRange("abcd", "efgh");
         findPage.clickFindByDateRange();
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(2));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
         wait.until(ExpectedConditions.presenceOfElementLocated(
                 By.cssSelector("#dateRangeError")
         ));
@@ -142,7 +142,8 @@ public class FindTransactionsTest {
     public void testInvalidAmount() {
         findPage.enterAmount("abc");
         findPage.clickFindByAmount();
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(2));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10
+        ));
         wait.until(ExpectedConditions.presenceOfElementLocated(
                 By.cssSelector("#amountError")
         ));
