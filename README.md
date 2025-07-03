@@ -1,5 +1,5 @@
 # QA_Testing_Project
-Tested apps:
+Here we provide what have we tested so we can perform all the testing skills we have gained from the course, plus adding some new tools for testing.
 1. API testing --> https://gorest.co.in/
 2. UI testing --> https://parabank.parasoft.com/  (61 Test - 5min)
 3. UnitTesting --> 
