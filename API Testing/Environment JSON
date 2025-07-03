@@ -1,0 +1,75 @@
+{
+	"id": "f783e1c1-5fea-49f5-a1e2-36cb812b51d6",
+	"name": "GoRest API Testing Environment",
+	"values": [
+		{
+			"key": "base_url",
+			"value": "https://gorest.co.in/public/v2",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "token",
+			"value": "319c1123bc100a90537c0dac1974abe45a420a1e61bc36a4c2b7188a9ef0b37a",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "userId",
+			"value": "7439915",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "timestamp",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "postId",
+			"value": "216224",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "commentId",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "todoId",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "randomName",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "randomEmail",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "name",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "email",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		}
+	],
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2025-07-03T18:26:33.421Z",
+	"_postman_exported_using": "Postman/11.52.3"
+}

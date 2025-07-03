@@ -1,0 +1,4 @@
+name,email,gender,status
+Alice Smith,alice@example.com,female,active
+Gorjan Bogoevski,gorjan@example.com,male,inactive
+Leon Asanovski,leon@example.com,male,active
