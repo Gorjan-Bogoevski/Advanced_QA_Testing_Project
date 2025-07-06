@@ -7,4 +7,4 @@ Here we provide what have we tested so we can perform all the testing skills we 
 
 ## Project Contributors
 
-[Leon Asanovski](https://github.com/leonasanovski) with index 221007 and [Gorjan Bogoevski](https://github.com/Gorjan-Bogoevski) with index 221193
+**[Leon Asanovski](https://github.com/leonasanovski) with index 221007 and [Gorjan Bogoevski](https://github.com/Gorjan-Bogoevski) with index 221193**
