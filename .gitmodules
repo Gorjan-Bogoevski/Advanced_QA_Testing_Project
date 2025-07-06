@@ -1,0 +1,3 @@
+[submodule "UnitTesting/EventLocationTestApp"]
+	path = UnitTesting/EventLocationTestApp
+	url = https://github.com/leonasanovski/EventLocationTestApp
